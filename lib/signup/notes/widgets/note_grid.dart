@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/notes/note.dart';
-import 'package:flutter_application_1/notes/pages/note_provider.dart';
+import 'package:flutter_application_1/signup/notes/note.dart';
+import 'package:flutter_application_1/signup/notes/pages/note_provider.dart';
+import 'package:flutter_application_1/signup/notes/widgets/note_card.dart';
+
 import 'package:provider/provider.dart';
-import 'package:flutter_application_1/notes/widgets/note_card.dart';  // Import NoteCard
+  // Import NoteCard
 
 class NotesGrid extends StatelessWidget {
   const NotesGrid({super.key, required List<Note> notes});

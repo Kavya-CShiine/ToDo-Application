@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/notes/colors.dart';
-import 'package:flutter_application_1/notes/pages/new_or_edit.dart';
-import 'package:flutter_application_1/notes/pages/note_provider.dart';
-import 'package:flutter_application_1/notes/widgets/note_grid.dart';
-import 'package:flutter_application_1/notes/widgets/note_icon.dart';
-import 'package:flutter_application_1/notes/widgets/note_icon_button.dart';
-import 'package:flutter_application_1/notes/widgets/note_list.dart';
+import 'package:flutter_application_1/signup/notes/colors.dart';
+import 'package:flutter_application_1/signup/notes/pages/new_or_edit.dart';
+import 'package:flutter_application_1/signup/notes/pages/note_provider.dart';
+import 'package:flutter_application_1/signup/notes/pages/notes_grid.dart';
+import 'package:flutter_application_1/signup/notes/widgets/note_icon.dart';
+import 'package:flutter_application_1/signup/notes/widgets/note_icon_button.dart';
+import 'package:flutter_application_1/signup/notes/widgets/note_list.dart';
 import 'package:provider/provider.dart';
 
 void main() {

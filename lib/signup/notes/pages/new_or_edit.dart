@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/notes/note.dart';
-import 'package:flutter_application_1/notes/pages/note_provider.dart';
-import 'package:flutter_application_1/notes/widgets/note_icon.dart';
-import 'package:flutter_application_1/notes/widgets/note_icon_button.dart';
+
+import 'package:flutter_application_1/signup/notes/note.dart';
+import 'package:flutter_application_1/signup/notes/pages/note_provider.dart';
+import 'package:flutter_application_1/signup/notes/widgets/note_icon.dart';
+import 'package:flutter_application_1/signup/notes/widgets/note_icon_button.dart';
 import 'package:flutter_quill/flutter_quill.dart' as quill;
 import 'package:flutter_colorpicker/flutter_colorpicker.dart';
 import 'package:flutter_quill/quill_delta.dart' as quill show Delta;
@@ -74,7 +75,7 @@ class _NewOrEditState extends State<NewOrEdit> {
     currentNote.backgroundColor = noteBgColor;
 
     final notesProvider = Provider.of<NoteProvider>(context, listen: false);
-    final isNew = !notesProvider.notes.any((n) => n.id == currentNote.id);
+    final isNew = !notesProvider.notes.any((n) => n?.id == currentNote.id);
 
     if (isNew) {
       notesProvider.addNote(currentNote);
@@ -289,3 +290,5 @@ class _NewOrEditState extends State<NewOrEdit> {
     );
   }
 }
+
+

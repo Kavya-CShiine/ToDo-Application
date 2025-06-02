@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/notes/note.dart';
-import 'package:flutter_application_1/notes/pages/note_provider.dart';
+import 'package:flutter_application_1/signup/notes/note.dart';
+import 'package:flutter_application_1/signup/notes/pages/new_or_edit.dart';
+import 'package:flutter_application_1/signup/notes/pages/note_provider.dart';
+
 import 'package:provider/provider.dart';
-import 'package:flutter_application_1/notes/pages/new_or_edit.dart';
 
 class NotesGrid extends StatelessWidget {
   final List<Note> notes;

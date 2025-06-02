@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/notes/note.dart';
+import 'package:flutter_application_1/signup/notes/note.dart';
 
 
 enum SortOrder{createdDate,modifiedDate}

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/notes/colors.dart';
+import 'package:flutter_application_1/signup/notes/colors.dart';
 
 class NoteIconButton extends StatelessWidget {
   const NoteIconButton({
