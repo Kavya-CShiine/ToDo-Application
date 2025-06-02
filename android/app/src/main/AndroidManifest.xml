@@ -1,4 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<<<<<<< HEAD
 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
@@ -7,6 +8,12 @@
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
     
+=======
+    <application
+        android:label="todo_application"
+        android:name="${applicationName}"
+        android:icon="@mipmap/ic_launcher">
+>>>>>>> f396b7f29d4e3f08bcfd244a4d57bd6b6dfb7417
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -34,7 +41,10 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
+<<<<<<< HEAD
         
+=======
+>>>>>>> f396b7f29d4e3f08bcfd244a4d57bd6b6dfb7417
     </application>
     <!-- Required to query activities that can process text, see:
          https://developer.android.com/training/package-visibility and

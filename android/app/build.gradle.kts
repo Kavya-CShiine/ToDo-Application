@@ -6,8 +6,13 @@ plugins {
 }
 
 android {
+<<<<<<< HEAD
     namespace = "com.example.flutter_application_1"
     compileSdk = flutter.compileSdkVersion 
+=======
+    namespace = "com.example.todo_application"
+    compileSdk = flutter.compileSdkVersion
+>>>>>>> f396b7f29d4e3f08bcfd244a4d57bd6b6dfb7417
     ndkVersion = flutter.ndkVersion
 
     compileOptions {
@@ -21,7 +26,11 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
+<<<<<<< HEAD
         applicationId = "com.example.flutter_application_1"
+=======
+        applicationId = "com.example.todo_application"
+>>>>>>> f396b7f29d4e3f08bcfd244a4d57bd6b6dfb7417
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = flutter.minSdkVersion
@@ -29,7 +38,10 @@ android {
         versionCode = flutter.versionCode
         versionName = flutter.versionName
     }
+<<<<<<< HEAD
     ndkVersion = "27.0.12077973"
+=======
+>>>>>>> f396b7f29d4e3f08bcfd244a4d57bd6b6dfb7417
 
     buildTypes {
         release {
